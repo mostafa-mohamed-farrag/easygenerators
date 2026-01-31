@@ -10,7 +10,7 @@ The application can be run locally or fully containerized using **Docker Compose
 ## Tech Stack
 
 **Backend**
-- Node.js, NestJS
+- NestJS
 - MongoDB + Mongoose
 - JWT authentication
 - bcrypt
@@ -36,7 +36,6 @@ The application can be run locally or fully containerized using **Docker Compose
 - Protected frontend route (`/app`)
 - Logout handling
 - Form validation on both frontend and backend
-- Clean, modern UI with Tailwind CSS
 
 ---
 
@@ -100,7 +99,6 @@ The application can be run locally or fully containerized using **Docker Compose
 - It was accepted intentionally for:
   - Better user experience
   - Clear feedback in a demo / task context
-- In a production system, this could be mitigated using generic error messages
 
 ### Email Verification
 - Not implemented to avoid scope creep
@@ -142,26 +140,6 @@ This starts:
   - MongoDB
   - NestJS API (port 4000)
   - React frontend (port 3000)
-
-### Local setup
-
-#### Backend
-
-```bash 
-cd apps/api
-pnpm install
-pnpm start:dev
-```
-
-#### Frontend
-
-```bash 
-cd apps/web
-pnpm install
-pnpm dev
-```
-
----
 
 ## Future Improvements
 
