@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { type ReactNode } from "react";
 import { Container } from "./Container";
 import { TopNav } from "./TopNav";
 
@@ -23,7 +23,9 @@ export function AuthLayout({
                 {title}
               </h1>
               {subtitle && (
-                <p className="mt-3 text-base leading-7 text-slate-600">{subtitle}</p>
+                <p className="mt-3 text-base leading-7 text-slate-600">
+                  {subtitle}
+                </p>
               )}
             </section>
 

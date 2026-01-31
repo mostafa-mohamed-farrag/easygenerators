@@ -1,7 +1,7 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 
 import Signup from "../pages/Signup";
-import Signin from "../pages/SignIn";
+import Signin from "../pages/Signin";
 import AppHome from "../pages/AppHome";
 import { RequireAuth } from "../components/routing/RequireAuth";
 import { RedirectIfAuth } from "../components/routing/RedirectIfAuth";
